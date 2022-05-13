@@ -1,3 +1,33 @@
 body {
-    background: green;
+position: relative;
+    width: 1440px;
+    height: 800px;
+
+background: #131518;
+}
+
+.rating {
+    position: absolute;
+width: 412px;
+height: 416px;
+left: 514px;
+top: 195px;
+background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+border-radius: 30px;
+}
+
+.rating h1 {
+    position: absolute;
+height: 35px;
+left: 7.77%;
+right: 43.45%;
+top: calc(50% - 35px/2 - 80.5px);
+
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+
+color: #FFFFFF;
 }
