@@ -1,16 +1,16 @@
 body {
 position: relative;
-    width: 1440px;
-    height: 800px;
-    font-family: 'Overpass';
-    font-style: normal;
+width: 1440px;
+height: 800px;
+font-family: 'Overpass';
+font-style: normal;
 background: #131518;
 }
 
 /* Rating window */
 
 .rating {
-    position: absolute;
+position: absolute;
 width: 412px;
 height: 416px;
 left: 514px;
@@ -21,29 +21,27 @@ border-radius: 30px;
 }
 
 .star {
-    position: absolute;
+position: absolute;
 height: 48px;
 width: 48px;
 left: 32px;
 top: 32px;
 border-radius: 24px;
-
-    background: #262E38;
+background: #262E38;
 }
 
 .star img {
-    position: absolute;
-    left: 16px;
-    top: 16px; 
+position: absolute;
+left: 16px;
+top: 16px; 
 }
 
 .rating h1 {
-    position: absolute;
+position: absolute;
 height: 35px;
 left: 7.77%;
 right: 43.45%;
 top: 95px;
-
 font-weight: 700;
 font-size: 28px;
 line-height: 35px;
@@ -52,16 +50,14 @@ color: #FFFFFF;
 }
 
 .rating p {
-    position: absolute;
+position: absolute;
 height: 72px;
 left: 7.77%;
 right: 9.71%;
 top: 145px;
-
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-
 color: #969FAD;
 }
 
@@ -75,41 +71,37 @@ width: 341px;
 height: 51px;   
 left: 32px;
 top: 256px;
-
 }
 
 .rate-button {
-    height: 51px;
-    width: 51px;
-    border-radius: 50%;
-    background: #262E38;
-    border: none;
-    font-weight: 700;
+height: 51px;
+width: 51px;
+border-radius: 50%;
+background: #262E38;
+border: none;
+font-weight: 700;
 font-size: 16px;
 line-height: 24px;
-
 text-align: center;
 letter-spacing: 0.2px;
-
 color: #7C8798;
 }
 
 .rate-button:hover {
-
-    background: #FC7614;
-    color: white;
-    transition: 0.6s;
+background: #FC7614;
+color: white;
+transition: 0.6s;
 }
 
 .rate-button:focus {
-    background: #7C8798;
-    color: white;
+background: #7C8798;
+color: white;
 }
 
 .submit {
-    position: absolute;
-    height: 45px;
-    width: 341px;
+position: absolute;
+height: 45px;
+width: 341px;
 left: 7.77%;
 right: 9.47%;
 top: 81.49%;
@@ -127,76 +119,71 @@ color: #FFFFFF;
 }
 
 .submit:hover {
-    background-color: white;
-    color:#FC7614;
-    transition: 0.2s;
+background-color: white;
+color:#FC7614;
+transition: 0.2s;
 }
 
 .submit:active {
-    background-color: white;
-    box-shadow: 0 1px white;
-    transform: translateY(1px);
+background-color: white;
+box-shadow: 0 1px white;
+transform: translateY(1px);
 }
 
     /* Thanks window */
 
 .thanks {
-        position: absolute;
-    width: 412px;
-    height: 416px;
-    left: 514px;
-    top: 195px;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
-    border-radius: 30px;
+position: absolute;
+width: 412px;
+height: 416px;
+left: 514px;
+top: 195px;
+background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+border-radius: 30px;
    
 }
 
 #thanks {
-    visibility: hidden;
+visibility: hidden;
 }
 
 .thanks img {
-    position: absolute;
-    width: 162px;
-    height: 108px;
-    left: 121px;
-    top: 45px;
+position: absolute;
+width: 162px;
+height: 108px;
+left: 121px;
+top: 45px;
 }
 
 .thanks h1 {
-        position: absolute;
-    width: 145px;
-    height: 35px;
-    left: 135px;
-    right: 45%;
-    top: 230px;
-
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 35px;
-
-    color: #FFFFFF;
+position: absolute;
+width: 145px;
+height: 35px;
+left: 135px;
+right: 45%;
+top: 230px;
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+color: #FFFFFF;
 }
 
 .thanks p {
-        position: absolute;
+position: absolute;
 height: 72px;
 width: 340px;
 left: 32px;
 right: 38.47%;
 top: calc(50% - 72px/2 + 130px);
-
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-
 text-align: center;
-
 color: #969FAD;
 }
 
 #result {
-    position: absolute;
+position: absolute;
 width: 193px;
 height: 32px;
 left: 110px;
@@ -206,13 +193,12 @@ border-radius: 22.5px;
 }
 
 #result p {
-    position: absolute;
+position: absolute;
 top: -8px;
 left: -75px;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
-
 color: #FC7614;
 }
 
