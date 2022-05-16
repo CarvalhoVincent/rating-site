@@ -13,6 +13,17 @@ background: #131518;
         width: 375px;
         height: 667px;
     }
+
+    .attribution {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        bottom: 10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 24px;
+        color: #969FAD;
+        }
   }
 
 .attribution {
