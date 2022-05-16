@@ -7,17 +7,7 @@ font-style: normal;
 background: #131518;
 }
 
-@media all and (max-width: 1024px) {
-    body {
-        position: relative;
-        width: 375px;
-        height: 667px;
-        left: -500px;
-    }
-
-    .attribution {
-        left: 500px;
-    }
+@media all and (-webkit-min-device-pixel-ratio: 3) {
   }
 
 .attribution {
