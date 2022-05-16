@@ -1,11 +1,9 @@
 const rating = ["0"];
 
-
 function saveRate(el) {
     rating.pop();
     rating.push(el.value);
 }
-
 
 function displayThanks() {
     var thanksPage = document.getElementById("thanks");
@@ -16,5 +14,3 @@ function displayThanks() {
         alert("Please select a rating !");
     }
 }
-
-
