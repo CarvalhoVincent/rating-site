@@ -202,3 +202,25 @@ line-height: 24px;
 color: #FC7614;
 }
 
+footer {
+position: absolute;
+height: 30px;
+width: 100%;
+bottom: 10px;
+text-align: center;
+font-weight: 400;
+font-size: 10px;
+line-height: 24px;
+color: #969FAD;
+}
+
+a {
+color: #FC7614;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+color: white;
+transition: 0.3s;
+}
