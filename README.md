@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./ScreenshotRating.png), (./ScreenshotThank.png)
+![](./ScreenshotRating.png)
+![](./ScreenshotThank.png)
 
 
 
